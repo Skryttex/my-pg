@@ -63,3 +63,46 @@ video{
 
     padding: 10px 80px;
 }
+
+@media only screen and (max-width: 600px) {
+    .div__welcome{
+        padding-top: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: auto;
+        position: relative;
+        z-index: 2;
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        text-shadow: 1px 1px 20px rgb(32, 109, 8);
+    }
+
+    .div__welcome{
+        padding-top: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        position: relative;
+        z-index: 2;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 20px rgb(32, 109, 8);
+    }
+    
+    
+    
+    .div__welcome__bottom{
+        background-color: rgb(32, 109, 8);
+        padding: 10px 60px;
+        color: white;
+        text-decoration: none;
+        transition-property: all;
+        transition-delay: 0;
+        transition-duration: 1s;
+    }
+        
+}
